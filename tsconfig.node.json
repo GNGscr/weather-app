@@ -14,7 +14,8 @@
     "resolveJsonModule": true,
 
     "composite": true,
-    "noEmit": true,
+    "noEmit": false,
+    "emitDeclarationOnly": true,
 
     /* Linting */
     "strict": true,
