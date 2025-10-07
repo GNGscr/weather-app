@@ -1,12 +1,11 @@
 import { useMemo } from 'react';
-import type { ForecastResponse, DailyForecast } from '../types/Forecast';
+import type { ForecastResponse } from '../types/Forecast';
 import type { UnitOption } from '../types/UnitOptions';
 import { motion } from 'framer-motion';
 
 type Forecasts = {
     weatherData: ForecastResponse;
     units: UnitOption;
-    // dailyForecasts: DailyForecast[];
 };
 
 const DailyForecasts = ({ weatherData, units, }: Forecasts) => {

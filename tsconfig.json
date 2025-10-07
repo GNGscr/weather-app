@@ -4,6 +4,7 @@
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
   ],
+  "include": ["vite-env.d.ts"],
   "compilerOptions": {
     "module": "ESNext",
     "target": "ESNext",
@@ -19,5 +20,4 @@
     },
     "types": ["vite/client"]
   },
-  "include": ["src", "vite-env.d.ts"]
 }
