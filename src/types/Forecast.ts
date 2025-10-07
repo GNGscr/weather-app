@@ -52,8 +52,8 @@ export type ForecastResponse = {
   };
 };
 
-export type DailyForecast = {
-  date: string;
-  temp: number;
-  description: string;
-};
+// export type DailyForecast = {
+//   date: string;
+//   temp: number;
+//   description: string;
+// };
