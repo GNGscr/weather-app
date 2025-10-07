@@ -51,9 +51,3 @@ export type ForecastResponse = {
     sunset: number;
   };
 };
-
-// export type DailyForecast = {
-//   date: string;
-//   temp: number;
-//   description: string;
-// };
