@@ -9,7 +9,8 @@
 
     /* Bundler mode */
     "moduleResolution": "bundler",
-    "noEmit": true,
+    "noEmit": false,
+    "emitDeclarationOnly": true,
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "composite": true,
