@@ -10,7 +10,7 @@ Weather App is a React + TypeScript app that displays a grid of active cities wi
 
 ## 🚀 Live Site
 
-[https://weather-app-de.netlify.app/](https://weather-app-de.netlify.app/) 
+[[Weather App Live](https://weather-app-de.netlify.app/)](https://weather-app-de.netlify.app/) 
 
 ---
 
